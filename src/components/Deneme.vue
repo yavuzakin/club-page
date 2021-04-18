@@ -58,11 +58,12 @@ export default {
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
+    height: 300px;
 }
 
 .a {
     height: 256px;
-    width: 576px;
+    width: 31%;
     background-color: #FCFFFA;
     border-radius: 15px;
     margin: 2% 10px;
@@ -118,11 +119,11 @@ button {
     margin: 0 7%;
 }
 
-.product-container {
-    background: #fd746c;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #ff9068, #fd746c);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #ff9068, #fd746c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/*.product-container {
+    background: #fd746c;
+    background: -webkit-linear-gradient(to right, #ff9068, #fd746c);  
+    background: linear-gradient(to right, #ff9068, #fd746c);
 
-}
+}*/
 
 </style>

@@ -115,7 +115,23 @@ export default {
                 >Gallery</router-link
               >
             </li>
+            <!--<li class="nav-item">
+              <router-link
+                class="nav-link active text-light link"
+                aria-current="page"
+                to="/contactus"
+                >Contact Us</router-link
+              >
+            </li>-->
           </ul>
+          <form class="d-flex">
+            <button class="btn btn-outline-warning contact-button mr-3" type="submit"><router-link
+                class="nav-link active text-light link contact-link"
+                aria-current="page"
+                to="/contactus"
+                >Contact Us</router-link
+              ></button>
+          </form>
         </div>
       </div>
     </nav>
@@ -134,7 +150,7 @@ export default {
 <style>
 .navbar {
   width: 100%;
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding: 0;
   background-color: #043b8c;
   position: fixed;
@@ -173,4 +189,15 @@ export default {
   box-shadow: none;
   transform: translate3d(0, -100%, 0);
 }
+
+.contact-link {
+  padding: 2px;
+  width: 100px;
+  text-decoration-color: rgb(248, 249, 250);
+}
+
+.contact-button {
+  padding: 3.2px 2px;
+}
+
 </style>

@@ -7,9 +7,9 @@ export default {
 <template>
     <div class="footer">
         <div class="symbols">
-            <a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
-            <a href="https://www.instagram.com"><i class="fab fa-instagram-square"></i></a>
-            <a href="https://www.twitter.com"><i class="fab fa-twitter-square"></i></a>
+            <a href="https://www.facebook.com"><i class="fab  fa-2x fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com"><i class="fab fa-2x fa-instagram-square"></i></a>
+            <a href="https://www.twitter.com"><i class="fab fa-2x fa-twitter-square"></i></a>
         </div>
         <br>
         <div class="copyright">
@@ -30,7 +30,7 @@ export default {
 }
 
 .symbols {
-    margin-top: 28px;
+    margin-top: 2%;
 }
 
 span {
@@ -40,12 +40,12 @@ span {
 
 i {
     color:white;
-    font-size: 2.3rem;
-    margin: 0 5px;
+    /*font-size: 2.3rem;*/
+    margin: 0 .2%;
 }
 
 .copyright {
-    font-size: 1rem;
+    font-size: .9rem;
     margin-bottom: 22px;
 }
 

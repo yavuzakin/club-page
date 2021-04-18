@@ -6,6 +6,7 @@ import Mission from "../views/Mission.vue";
 import Events from "../views/Events.vue";
 import Products from "../views/Products.vue";
 import Gallery from "../views/Gallery.vue";
+import ContactUs from "../views/ContactUs.vue";
 
 Vue.use(VueRouter);
 
@@ -40,6 +41,11 @@ const routes = [
     name: "Gallery",
     component: Gallery,
   },
+  {
+    path: "/contactus",
+    name: "Contact Us",
+    component: ContactUs,
+  }
 ];
 
 const router = new VueRouter({

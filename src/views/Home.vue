@@ -3,7 +3,7 @@
     <nav-bar-2/>
     <div class="content">
       <img class="poster" src="../assets/poster-son.jpg" alt="">
-      <h1 class="poster-caption">Fan Club2</h1>
+      <h1 class="poster-caption">Fan Club</h1>
       <!--<h2>Events</h2>-->
       <!--<div class="events-carousel">-->
       <carousel />
@@ -35,8 +35,10 @@ export default {
 .content {
   /*margin: 0.5rem 1rem;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;*/
+  padding-bottom: 5%;
+  margin-top: 2.6%;
   background-color: #ebe6df;
-  height: 200vh;
+  /*height: 250vh;*/
 }
 
 .events-carousel {
@@ -64,8 +66,10 @@ h2 {
 .poster-caption {
   color: white;
   position: relative;
-  bottom: 245px;
+  bottom: 225px;
+  /*245px*/ 
   font-size: 80px;
+  font-weight: 800;
   font-family: 'Dela Gothic One', cursive;
   font-family: 'Kiwi Maru', serif;
 }
