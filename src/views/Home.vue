@@ -3,7 +3,7 @@
     <nav-bar-2/>
     <div class="content">
       <img class="poster" src="../assets/poster-son.jpg" alt="">
-      <h1 class="poster-caption">Fan Club</h1>
+      <h1 class="poster-caption">Fan Club2</h1>
       <!--<h2>Events</h2>-->
       <!--<div class="events-carousel">-->
       <carousel />
