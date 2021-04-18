@@ -64,7 +64,7 @@ export default {
                 class="nav-link active text-light link"
                 aria-current="page"
                 to="/"
-                >Home</router-link
+                >HOME</router-link
               >
             </li>
             <li class="nav-item dropdown">
@@ -76,17 +76,17 @@ export default {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                About Us
+                ABOUT US
               </router-link>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
                   <router-link class="dropdown-item link" to="/vision"
-                    >Vision</router-link
+                    >VISION</router-link
                   >
                 </li>
                 <li>
                   <router-link class="dropdown-item link" to="/mission"
-                    >Mission</router-link
+                    >MISSION</router-link
                   >
                 </li>
               </ul>
@@ -96,7 +96,7 @@ export default {
                 class="nav-link active text-light link"
                 aria-current="page"
                 to="/events"
-                >Events</router-link
+                >EVENTS</router-link
               >
             </li>
             <li class="nav-item">
@@ -104,7 +104,7 @@ export default {
                 class="nav-link active text-light link"
                 aria-current="page"
                 to="/products"
-                >Products</router-link
+                >PRODUCTS</router-link
               >
             </li>
             <li class="nav-item">
@@ -112,7 +112,7 @@ export default {
                 class="nav-link active text-light link"
                 aria-current="page"
                 to="/gallery"
-                >Gallery</router-link
+                >GALLERY</router-link
               >
             </li>
             <!--<li class="nav-item">
@@ -125,11 +125,11 @@ export default {
             </li>-->
           </ul>
           <form class="d-flex">
-            <button class="btn btn-outline-warning contact-button mr-3" type="submit"><router-link
+            <button class="btn btn-outline-warning contact-button mr-5" type="submit"><router-link
                 class="nav-link active text-light link contact-link"
                 aria-current="page"
                 to="/contactus"
-                >Contact Us</router-link
+                >CONTACT US</router-link
               ></button>
           </form>
         </div>
@@ -192,7 +192,7 @@ export default {
 
 .contact-link {
   padding: 2px;
-  width: 100px;
+  width: 140px;
   text-decoration-color: rgb(248, 249, 250);
 }
 

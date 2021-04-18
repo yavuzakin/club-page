@@ -69,9 +69,13 @@ h2 {
   bottom: 225px;
   /*245px*/ 
   font-size: 80px;
-  font-weight: 800;
+  font-weight: 600;
   font-family: 'Dela Gothic One', cursive;
   font-family: 'Kiwi Maru', serif;
+}
+
+h3 {
+  padding-top: 5%;
 }
 
 </style>
